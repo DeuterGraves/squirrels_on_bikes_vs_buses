@@ -1,68 +1,80 @@
 Group Project to practice using vanilla JavaScript, external API calls and Express to make a C02 carbon footprint travel web app.
 
 # Readme
-Week 9 of CodeClan Professional Development award involved a JavaScript group project for the CodeClan programming course. 
+Week 9 of CodeClan Professional Development award involved a JavaScript group project for the CodeClan programming course.
 
-## Team Anonymous Squirrel consisted of 
+## Team Anonymous Squirrel consisted of
 - Thomas Gracie (TGracie)
 - Graham Stein (Graham-Stein)
 - Caroline Graves (DeuterGraves)
 - Kris Mac (krismac)
 
-Using Agile Poker, we evaluated a range of proposed scenarios including a Game, a Carbon Tracker, an educational app or a stock tracker. We agreed that there was a opportunity for a carbon budget app driven by transport/route planning. 
+Using Agile Poker, we evaluated a range of proposed scenarios including a Game, a Carbon Tracker, an educational app or a stock tracker. We agreed that there was a opportunity for a carbon budget app driven by transport/route planning.
 
-The website should take in some input, and display the breakdown of the data in a graph. 
+The website should take in some input, and display the breakdown of the data in a graph.
 
 See it here: [Code submission via Github repo](https://github.com/krismac/CodeClan_w05_Project_AnimalShelter.git)
 
 ##Specification
-CodeClan instructors required that we establish a project to create an application in 4 days using core Javascript - no front-end frameworks or jQuery were allowed. 
+CodeClan instructors required that we establish a project to create an application in 4 days using core Javascript - no front-end frameworks or jQuery were allowed.
 
 Our trello/kanban dynamically compared our MoSCoW requirements with our backlog/work breakdown status.
 
 # Development
-We self organised around 4 sprints, focusing on particular features and functionality within the days. The days were kicked off with a stand-up to support retrospective and re-planning and closed our day with a huddle and code remerges. We took turns in being Scrum Master each day and regularly took turns to drive. 
+We self organised around 4 sprints, focusing on particular features and functionality within the days. The days were kicked off with a stand-up to support retrospective and re-planning and closed our day with a huddle and code remerges. We took turns in being Scrum Master each day and regularly took turns to drive.
 
 Our first exercise involved a short burst of independent research followed by a brainstorming session to determine core functionality (MVP) and data sources/approaches. The remainder of sprint 1 involved agreeing user journey/requirements and work breakdown along with laying groundwork such as creating a workflow to support code management around Github.
 
 ## Technology used
 - Javascript
 - HTML/CSS
-- Express 
+- Express
 
-## Life:Cycle Carbon Commute Planner 
-- Making a small change & showing a difference 
+## Life:Cycle Carbon Commute Planner
+- Making a small change & showing a difference
 
 ```
-You have been approached by a lifestyle consultancy company dealing with environmental sustainability. Your task is to build a personal CO2 planner app to help users calculates the impact of their commute on their CO2 footprint. The consultancy are seeking to encourage more users to cycle by showing a view of their current impact and the impact alternative modes of transport. 
+You have been approached by a lifestyle consultancy company dealing with environmental sustainability. Your task is to build a personal CO2 planner app to help users calculates the impact of their commute on their CO2 footprint. The consultancy are seeking to encourage more users to cycle by showing a view of their current impact and the impact alternative modes of transport.
 ```
 
 ## Features
 - User entry of trips based on a daily commute.
-- Input your weeks travel or model an ideal week. 
+- Input your weeks travel or model an ideal week.
 - Compare your carbon footprint.
-- Plan a greener commute. 
+- Plan a greener commute.
 
 ## API, Libraries, Resources
 - [Edinburgh Cycles](https://edinburghcyclehire.com/)
 - [Google API](https://developers.google.com/maps/documentation/)
 
 ## Update history
-- v 0.1 MPV Release date 07/11/2018
+- v 0.1 MVP Release date 07/11/2018
 - v 0.2 Extensions Release 08/11/2018
 
 ## Installing and running the app from Github
 - Clone the repository using git clone link
-- Install webpack using npm install webpack -g
-- Start the server using webpack (npm run build) from the root project folder
+- In terminal, run:
+  ```
+  npm install
+  ```
+- Then build the bundle.js file by running:
+  ```
+  npm run build
+  ```
+- Start the server by running:
+  ```
+  npm start
+  ```
+- Finally, open the index.html file found in the client/public folder.
+
 
 # Learning points
-- Consolidate our learning of vanilla JavaScript 
+- Consolidate our learning of vanilla JavaScript
 - Pubsub
-- Using API's and data persistence. 
+- Using API's and data persistence.
 - Teamwork in self managing teams
 - Division of features
-- Diagraming 
+- Diagraming
 - Refactoring
 - CSS
 
